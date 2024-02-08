@@ -1,6 +1,6 @@
 Config = {}
 
-Config.PoliceOnDutyRequired = 2           -- amount of police required to be on duty to rob a house
+Config.PoliceOnDutyRequired = 1           -- amount of police required to be on duty to rob a house
 
 Config.LimitTime = true                   -- Use in-game clock hours to set the time the houses can be robbed
 Config.MinimumTime = 6                    -- only needed if LimitTime is true
@@ -13,7 +13,7 @@ Config.RequireScrewdriver = true          -- if true, you need a screwdriver to 
 Config.ChanceToBreakLockPick = 30         -- chance in percent to break a normal lockpick if failed
 Config.ChanceToBreakAdvancedLockPick = 15 -- chance in percent to break a advanced lockpick if failed
 
-Config.ChanceToAlertPolice = 20           -- chance in percent to call the police if a house robbery is in progress
+Config.ChanceToAlertPolice = 50           -- chance in percent to call the police if a house robbery is in progress
 
 Config.MinZOffset = 45
 
